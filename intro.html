@@ -2,44 +2,95 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site do Chile - Introdução</title>
+    <title>Tour pelo Chile 2.0 - Introdução</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <div id="topo">
-            <h1>Tour pelo Chile</h1>        
-            <p>Por Luis Gustavo</p>
-            <img src="img/bandeirachile.png" alt="" width="400px">
-        </div>       
-    </header>
-    <main>
-        <div id="conteudo-interno">            
-            <h2 class="titulo">Introdução</h2>
-            <div class="foto">                
-                <img src="img/bandeirachile.png" > 
-                <p class="legenda capslock">Chile </p>
-                <p class="legenda ">Chile </p>
+
+<header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center gap-2">
+                <img src="img/bandeirachile.png" alt="Chile" width="40">
+                Tour Chile
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="links-navbar">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="hist.html" class="nav-link">História</a>
+                    <a href="geopo.html" class="nav-link">Geo-política</a>
+                    <a href="atra.html" class="nav-link">Atrativos</a>
+                </div>
             </div>
-            <div class="foto">                
-                <img src="img/bandeirachile.png" >  
-                <p class="legenda capslock">Chile </p>
-                <p class="legenda ">Chile </p>
-            </div>  
-            <div class="foto">                
-                <img src="img/bandeirachile.png" > 
-                <p class="legenda capslock">Chile </p>
-                <p class="legenda ">Chile</p>
-            </div> 
-            <br>
-        </div>  
-        <div id="luis"><a href="index.html" class="voltar">Voltar</a>   </div>                  
-              
-    </main>
-    <footer>
-        <p>Desenvolvido por Luis Gustavo</p>
-    </footer>     
+        </div>
+    </nav>
+
+    <!-- navbar -->
+    <div style="height: 80px;"></div>
+
+    <!-- TOPO -->
+    <div id="topo" class="text-center">
+        <h1>Tour pelo Chile</h1>
+        <p>Por Luis Gustavo</p>
+        <img src="img/bandeirachile.png" alt="Bandeira do Chile">
+    </div>
+</header>
+
+<main>
+    <div id="conteudo-interno">
+        <h2 class="titulo">Introdução</h2>
+
+        <!-- GRID grade -->
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="foto">
+                    <img src="img/lhama-fofa.png" alt="Introdução ao Chile">
+                    <p class="legenda capslock">lhama</p>
+                    <p class="legenda">:3</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="foto">
+                    <img src="img/lhama-fofa.png" alt="Introdução ao Chile">
+                    <p class="legenda capslock">lhama</p>
+                    <p class="legenda">:3</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="foto">
+                    <img src="img/lhama-fofa.png" alt="Introdução ao Chile">
+                    <p class="legenda capslock">lhama</p>
+                    <p class="legenda">:3</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <p>Desenvolvido por Luis Gustavo</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
