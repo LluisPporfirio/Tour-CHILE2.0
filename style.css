@@ -8,9 +8,7 @@ body {
     flex-direction: column;
 }
 
-/* Barra de navegação*/
-
-/* header */
+/* Barra de navegação e header */
 header{
    background-image: url("img/bandeirachile.png");
   background-size: cover;
@@ -22,7 +20,7 @@ header{
 /*Nav colorido, antes não dava pra ver :3*/
 
 .nav-link{
-    color: #111a68 !important;
+    color: #4050df !important;
 }
 
 @media(min-width: 780px){
@@ -32,15 +30,15 @@ header{
 }
 
 
-
+/*topo abaixo do nav*/
 
 #topo {
     max-width: 2000px;
     margin: auto;
-    padding: 30;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
-    align-items: left;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
     font-style: italic;
@@ -49,7 +47,7 @@ header{
 header h1 {
     text-transform: uppercase;
     font-style: italic;
-    font-size: clamp(32px, 6vw, 75px);
+    font-size: clamp(32px, 6vw, 50px);
     color: #ffffff;
     letter-spacing: 6px;
     line-height: 1.1;
@@ -78,6 +76,7 @@ main h2 {
     color: #1e2eb9;
     font-size: clamp(20px, 4vw, 32px);
 }
+
 
 /* grid grade */
 #conteudo-home {
@@ -150,7 +149,8 @@ footer {
 
 .foto img {
     width: 100%;
-    height: auto;
+    height: xpx; 
+    object-fit: cover
 }
 
 .legenda {
@@ -184,6 +184,8 @@ footer {
     }
 
     .hero {
+        text-align: center;
+        padding: 60px 20px;
         height: 100vh;
         display: flex;
         align-items: center;     
@@ -192,16 +194,20 @@ footer {
         position: relative;
         z-index: 2;
     }
-    /*texto chile home*/
-    .hero .container {
-        margin-top: -500px; 
+
+/* texto chile home */
+.hero .container {
+        margin-top: -100px; 
     }
 
-    .hero h1, .hero p {
-      color: white;
+    .hero h1 {
+    font-size: clamp(32px, 10vw, 200px);
+    color: white;
     }
-    .hero h1{
-        font-size: 200px;
+
+    .hero p {
+    font-size: clamp(14px, 2.5vw, 24px);
+    color: white;
     }
 
     section {
@@ -221,7 +227,6 @@ footer {
     .custom-card img {
       max-height: 300px;
       max-width: 100%;
-      margin-left: 180px;
     }
     /*Mobile*/
     @media(max-width: 992px) {
