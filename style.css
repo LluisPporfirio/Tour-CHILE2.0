@@ -228,12 +228,17 @@ footer {
       max-height: 300px;
       max-width: 100%;
     }
-    /*Mobile*/
-    @media(max-width: 992px) {
+ /*Mobile*/
+ @media(max-width: 992px) {
         .custom-card img {
       max-height: 100%;
       max-width: 100%;
       margin-left: 0px;
     }
-        
     }
+/*corrige o moai*/
+#carouselCultura .carousel-item img {
+  width: 100%;
+  height: 50%; /* 50/50*/
+  object-fit: cover;
+}

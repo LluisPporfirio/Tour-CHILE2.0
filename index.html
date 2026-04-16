@@ -45,50 +45,93 @@
 </header>
 
 <main>
-
+  <!--parallax-->
 <div class="parallax-bg"></div>
-
+<!--titulo-->
 <section class="hero">
   <div class="container">
     <h1 class="display-3 fw-bold">ᑕᕼIᒪᕮ</h1> 
   </div>
 </section>
-
-<section>
-  <div class="container">
-    <div class="card custom-card p-4 ">
-        <img src="img/chileflag.jpg" class="img-fluid shadow" alt="Chile">
-      <h2>Resumo básico</h2>
-      <p class="col-lg-8 mx-auto">
-        O Chile é um país sul-americano longo e estreito, situado entre a Cordilheira dos Andes e o Oceano Pacífico. 
-        Com capital em Santiago, destaca-se por sua geografia extrema, varindo entre deserto mais árido do mundo o lendário Atacama, 
-        até as magestosas e colossais geleiras na Patagônia.
-      </p>
-    </div>
-  </div>
 </section>
-
-<!--ilha de páscoa-->
+<!-- Resumo -->
 <section>
   <div class="container">
     <div class="card custom-card p-4">
       <div class="row align-items-center g-4">
-
-        <div class="col-md-6">
-          <img src="img/Moái1.jpg" class="img-fluid shadow" alt="Moaís">
+        <!-- Carrossel -->
+        <div class="col-12 col-md-6">
+          <div id="carouselResumo" class="carousel slide mobile-carousel" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/chileflag.jpg" class="d-block w-100 rounded shadow" alt="Chile bandeira"></div>
+              <div class="carousel-item">
+                <img src="img/Santiago-do-Chile.jpg" class="d-block w-100 rounded shadow" alt="Santiago Chile"></div>
+              <div class="carousel-item">
+                <img src="img/santiago2.jpg" class="d-block w-100 rounded shadow" alt="cpaital do chile"></div>
+            </div>
+            <!--botões-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselResumo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselResumo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
         </div>
-
-        <div class="col-md-6">
-          <h2>Rapa Nui</h2>
-          <p>
-            A Ilha de Páscoa, conhecida originalmente como Rapa Nui, localizada no emisfério sul a cerca de 3.700 km de distancia da costa do chile.
-            É sem sombra de duvidas, um dos lugares mais intrigantes do mundo. 
-            Com seus famosos <strong>Moais</strong>. (estátuas de pedra ) São um dos principais elementos que atraem a atenção e despertam 
-            curiosidade sobre a história e cultura da ilha.
-            Que mais recentemente se tornou o meme do "Fino senhores" acompanhado de uma taça de vinho.
+        <!--texto-->
+        <div class="col-12 col-md-6">
+          <h2>Resumo básico</h2>
+            <p class="col-lg-8 mx-auto">
+              O Chile é um país sul-americano longo e estreito, situado entre a colossal Cordilheira dos Andes e o vasto Oceano Pacífico.
+              Com capital em Santiago, o país se destaca por sua geografia extrema e contrastante, que se estende por milhares de quilômetros.
+              Ao norte, encontra-se o Deserto do Atacama, considerado o deserto mais árido do mundo, com paisagens quase 
+              extraterrestres e céus limpos que favorecem a observação astronômica.
+              Já ao sul, a região da Patagônia revela um cenário completamente distinto, marcado por geleiras monumentais, 
+              montanhas e vastas áreas selvagens.
+              Essa diversidade natural não apenas define a paisagem chilena, mas também influencia diretamente sua cultura, 
+              economia e modo de vida, tornando o país um dos territórios mais singulares e fascinantes do continente.
           </p>
         </div>
-
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ilha de páscoa -->
+<section>
+  <div class="container">
+    <div class="card custom-card p-4">
+      <div class="row align-items-center g-4">
+        <!-- Carrossel -->
+        <div class="col-12 col-md-6">
+          <div id="carouselRapaNui" class="carousel slide mobile-carousel" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Moái1.jpg" class="d-block w-100 rounded shadow" alt="Moais"></div>
+              <div class="carousel-item">
+                <img src="img/moai2.jpg" class="d-block w-100 rounded shadow" alt="Moais Rapa Nui"></div>
+              <div class="carousel-item">
+                <img src="img/craterailha.jpg" class="d-block w-100 rounded shadow" alt="Ilha de Páscoa"></div>
+            </div>
+            <!--botões-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselRapaNui" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselRapaNui" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <!--texto-->
+        <div class="col-12 col-md-6">
+          <h2>Rapa Nui</h2>
+          <p>
+            A Ilha de Páscoa, conhecida originalmente como Rapa Nui, localizada no hemisfério sul a cerca de 3.700 km da costa do Chile,
+            é um dos lugares mais intrigantes do mundo.
+            Com seus famosos <strong>Moais</strong> (estátuas de pedra), atrai atenção e desperta curiosidade sobre a história e cultura da ilha.
+            Mais recentemente, também ganhou destaque na cultura da internet com o meme do “fino senhores”.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -100,7 +143,7 @@
       <div class="row align-items-center">
         <!-- Carrossel  -->
         <div class="col-12 col-md-6 mb-4 mb-md-0">
-          <div id="carouselCultura" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselCultura" class="carousel slide mobile-carousel "data-bs-ride="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/patriasfiesta.jpg" class="d-block w-100 rounded shadow" alt="Festa chilena">
@@ -135,17 +178,49 @@
     </div>
   </div>
 </section>
-<!--preda-->
+<!--litos: pedra em grego-->
 <section>
   <div class="container">
-    <div class="card custom-card p-4 text-center">
-      <h2>Geografia</h2>
-      <p class="col-lg-8 mx-auto">
-        desertos/rios/montanhas
-      </p>
+    <div class="card custom-card p-4">
+      <div class="row align-items-center">
+        <!-- Carrossel  -->
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <div id="carousellitos" class="carousel slide mobile-carousel "data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Andes-Chile.jpg" class="d-block w-100 rounded shadow" alt="Cordilheira dos Andes">
+              </div>
+              <div class="carousel-item">
+                <img src="img/florest.jpg" class="d-block w-100 rounded shadow" alt="Floresta no Chile">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Atacama1.png" class="d-block w-100 rounded shadow" alt="Deserto do Atacama">
+              </div>
+            </div>
+            <!-- BOTÕES -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousellitos" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousellitos" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span></button>
+          </div>
+        </div>
+        <!-- texto  -->
+        <div class="col-12 col-md-6">
+          <h2>Geografia</h2>
+          <p>
+            A geografia do Chile extremamente alongada no sentido norte-sul e estreita de leste a oeste,
+            resulta em uma notável diversidade climática e ambiental. Em um mesmo país, extremos coexistem, como o árido Deserto do Atacama, 
+            florestas densas e férteis, além de montanhas imponentes e vastas geleiras no sul.
+            Essa relação intensa com a natureza é complementada por sua extensa costa voltada para o Oceano Pacífico. 
+            No cenário econômico global, o Chile ocupa posição de destaque como o maior produtor de cobre do mundo, 
+            sendo responsável por cerca de 25% da produção mundial.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
 </main>
 <footer>
     <p>Feito por Luis Gustavo — Projeto Tour pelo Chile 2.0</p>
