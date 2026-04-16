@@ -13,37 +13,85 @@
 </head>
 
 <body>
-    <header>
-        <div id="topo">
-            <h1>Tour pelo Chile</h1>        
-            <p>Por Luis Gustavo</p>
-            <img src="imagens/bandeirachile.png" alt="" width="280px">
-        </div>       
-    </header>
-    <main>
-        <div id="conteudo-interno">            
-            <h2 class="titulo">Cultura</h2>
-            <div class="foto">                
-                <img src="img/"height="270" width="400"> 
-                <p class="legenda"></p>
-                <p class="legenda capital"></p>
+
+
+<header>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand d-flex align-items-start gap-2">
+                <img src="img/bandeirachile.png" alt="Chile" width="50">
+                Tour pelo Chile, a muralha da américa do sul
+            </a>
+
+            <!-- Botão do mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- LINKS para as paginas -->
+            <div class="collapse navbar-collapse justify-content-end" id="links-navbar">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="hist.html" class="nav-link">História</a>
+                    <a href="geo.html" class="nav-link">Geografia</a>
+                    <a href="cult.html" class="nav-link">Cultura</a>
+                </div>
             </div>
-            <div class="foto">                
-                <img src="img/bandeirachile.png" height="270" width="400"> 
-                <p class="legenda"></p>
-                <p class="legenda capital"></p>
-            </div>  
-            <div class="foto">                
-                <img src="img/" width="400"> 
-                <p class="legenda"></p>
-                <p class="legenda capital"></p>
-            </div> 
-            <br>
-        </div>                    
-         <div id="luis"><a href="index.html" class="voltar">Voltar</a>   </div>        
-    </main>
-    <footer>
-        <p>Desenvolvido por Luis Gustavo</p>
-    </footer>     
+        </div>
+    </nav>
+
+    <!-- NAVBAR fixa -->
+    <div style="height: 80px;"></div>
+
+    <!-- TOPO -->
+    <div id="topo" class="text-left">
+        <h1>Tour pelo Chile</h1>
+    </div>
+</header>
+
+<main>
+    <div id="conteudo-interno">
+        <h2 class="titulo">Atrativos</h2>
+
+        <!-- GRID grade -->
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="foto">
+                    <img src="img/bandeirachile.png" alt="Geografia do Chile">
+                    <p class="legenda capslock">imagem provisória</p>
+                    <p class="legenda">Mudar depois</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="foto">
+                    <img src="img/bandeirachile.png" alt="Geografia do Chile">
+                    <p class="legenda capslock">imagem provisória</p>
+                    <p class="legenda">Mudar depois</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="foto">
+                    <img src="img/bandeirachile.png" alt="Geografia do Chile">
+                    <p class="legenda capslock">imagem provisória</p>
+                    <p class="legenda">Mudar depois</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <p>Feito por Luis Gustavo — Projeto Tour pelo Chile 2.0</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
