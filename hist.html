@@ -51,7 +51,7 @@
 <main>
 
   <!--parallax-->
-<div class="parallax-bg"></div>
+<div class="parallax-bg hist"></div>
 <!--titulo-->
 <section class="hero">
   <div class="container">
@@ -205,6 +205,16 @@
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const bg = document.querySelector('.hist');
+
+  window.addEventListener('scroll', () => {
+    let scrollY = window.scrollY;
+
+    
+   bg.style.transform = `translateY(${scrollY * 0.25}px)`;
+  }); 
+  </script>
 
 </body>
 </html>

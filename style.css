@@ -169,7 +169,58 @@ footer {
         width: 100%;
         height: 180%;       
 
+        background: url('img/santiago2.jpg') center/cover no-repeat;
+
+        z-index: -1;
+        will-change: transform;
+    }
+    .geo {
+        position: fixed;
+        top: -80%;          
+        left: 0;
+        width: 100%;
+        height: 180%;       
+
         background: url('img/tour-pelo-chile.jpg') center/cover no-repeat;
+
+        z-index: -1;
+        will-change: transform;
+        
+    }
+    .cult {
+        position: fixed;
+        top: -80%;          
+        left: 0;
+        width: 100%;
+        height: 180%;       
+
+        background: url('img/torta.jpg') center/cover no-repeat;
+
+        z-index: -1;
+        will-change: transform;
+        
+    }
+
+    .hist {
+        position: fixed;
+        top: -80%;          
+        left: 0;
+        width: 100%;
+        height: 180%;       
+
+        background: url('img/livros.jpeg') center/cover no-repeat;
+
+        z-index: -1;
+        will-change: transform;
+    }
+        .atra {
+        position: fixed;
+        top: -80%;          
+        left: 0;
+        width: 100%;
+        height: 180%;       
+
+        background: url('img/ilhapascoa.jpg') center/cover no-repeat;
 
         z-index: -1;
         will-change: transform;
