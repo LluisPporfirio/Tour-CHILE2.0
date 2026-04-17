@@ -1,6 +1,6 @@
 # Tour-CHILE2.0
 
-O Tour-CHILE2.0 se trata de um site Front Engine, que funciona como apresentação básica do Chile para um possível novo visitante, sendo uma introdução para o nosso vizinho da américa do sul. Perfeito para aqueles que gostam de curisidades, ou estão planejando uma viagem.
+O Tour-CHILE2.0 se trata de um site Front Engine, que funciona como apresentação básica do Chile para um possível novo visitante, sendo uma introdução para o nosso vizinho da américa do sul. Perfeito para aqueles que gostam de curiosidades, ou estão planejando uma viagem. 
 
 ##  🚀 Acesse o Projeto
 <p align="center">
@@ -21,9 +21,9 @@ O Tour-CHILE2.0 se trata de um site Front Engine, que funciona como apresentaç�
 -  Recomenda atrativos do chile, para aqueles que adorariam fazer uma viajem. ✈️
 
 ## Como fazer rodar 🛞:
-- Acessece  https://lluispporfirio.github.io/Tour-CHILE2.0/ que você ja vai ser enviado para o site.
+- Acessasse  https://lluispporfirio.github.io/Tour-CHILE2.0/ que você ja vai ser enviado para o site. 
 
-- Ou você também pode instalar como arquivo .zip, que é bem facíl também: 
+- Ou você também pode instalar como arquivo .zip, que é bem fácil também:  
 - Clique no botão azul escrito (<>code). Ou código, caso a página esteja automaticamente traduzida 
 
 ## Tecnologias utilizadas 📲:
