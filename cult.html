@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour pelo Chile 2.0 - Geopolítica</title>
+    <title>Tour pelo Chile 2.0 - Cultura</title>
 
-    <!-- Bootstrap -->
+     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -21,12 +22,12 @@
         <div class="container">
             <a href="" class="navbar-brand d-flex align-items-start gap-2">
                 <img src="img/bandeirachile.png" alt="Chile" width="50">
-                Tour pelo Chile, a muralha da américa do sul
+                Cultura
             </a>
 
-            <!-- Botão do mobile -->
+             <!-- Botão do mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links-navbar">
-                <span class="navbar-toggler-icon"></span>
+                <i class="bi bi-star-fill fs-1 text-white"></i>
             </button>
 
             <!-- LINKS para as paginas -->
@@ -51,38 +52,106 @@
 </header>
 
 <main>
-    <div id="conteudo-interno">
-        <h2 class="titulo">Geografia</h2>
 
-        <!-- GRID grade -->
-        <div class="row g-4">
+  <!--parallax-->
+<div class="parallax-bg"></div>
+<!--titulo-->
+<section class="hero">
+  <div class="container">
+    <h1 class="display-3 fw-bold">ᑕᕼIᒪᕮ</h1> 
+  </div>
+</section>
 
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="foto">
-                    <img src="img/bandeirachile.png" alt="Geografia do Chile">
-                    <p class="legenda capslock">imagem provisória</p>
-                    <p class="legenda">Mudar depois</p>
-                </div>
+<!-- roupas -->
+<section>
+   <div class="container">
+    <div class="card custom-card p-4">
+      <div class="row align-items-center">
+        <!-- Carrossel  -->
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <div id="carousePoncho" class="carousel slide mobile-carousel "data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/PonchoLonko.PNG" class="d-block w-100 rounded shadow" alt="Poncho">
+              </div>
+              <div class="carousel-item">
+                <img src="img/homemsemnome.jpg" class="d-block w-100 rounded shadow" alt="Referência">
+              </div>
+              <div class="carousel-item">
+                <img src="img/luis2025.jpg" class="d-block w-100 rounded shadow" alt="Lítio">
+              </div>
             </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="foto">
-                    <img src="img/bandeirachile.png" alt="Geografia do Chile">
-                    <p class="legenda capslock">imagem provisória</p>
-                    <p class="legenda">Mudar depois</p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="foto">
-                    <img src="img/bandeirachile.png" alt="Geografia do Chile">
-                    <p class="legenda capslock">imagem provisória</p>
-                    <p class="legenda">Mudar depois</p>
-                </div>
-            </div>
-
+            
+            <!-- BOTÕES -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousePoncho" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousePoncho" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span></button>
+          </div>
         </div>
+        <!--texto-->
+        <div class="col-12 col-md-6">
+          <h2>Roupas típicas</h2>
+            <p class="col-lg-8 mx-auto">
+    Uma das vestimentas tradicionais mais representativas no chile é o Poncho, amplamente utilizado em diversas regiões, princialmente nas áreas rurais e andinas. 
+    Confeccionado artesalnamente em lã de ovelha ou de alpaca, o poncho é uma peça funcional, projetada para proteger contra o frio, o vento, e variações, especialmente nos Andes. 
+    Além de sua utilidade no dia a dia, tambem possui forte valor cultural, apresentando padrões e cores que refletem identidades regionais e tradições indígenas, como as dos <strong>Mapuches</strong>. 
+    Ao longo do tempo, o poncho tornou-se um símbolo da cultura chilena, sendo utilizado em festas, tradições e até como elemento de expressão cultural e histórica.
+    Já foi referenciado em filmes como "O estranho sem nome". 
+            </p>
+   
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<!--Comida-->
+<section>
+  <div class="container">
+    <div class="card custom-card p-4">
+      <div class="row align-items-center">
+        <!-- Carrossel  -->
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <div id="carouselComida" class="carousel slide mobile-carousel "data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/pao.jpg" class="d-block w-100 rounded shadow" alt="pão">
+              </div> 
+              <div class="carousel-item">
+                <img src="img/empada.jpg" class="d-block w-100 rounded shadow" alt="Empada chilena">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Curanto.jpg" class="d-block w-100 rounded shadow" alt="curanto">
+              </div>
+              <div class="carousel-item">
+                <img src="img/vinho.jpg" class="d-block w-100 rounded shadow" alt="vinho">
+              </div>
+            </div>
+            <!-- BOTÕES -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselComida" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselComida" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span></button>
+          </div>
+        </div>
+        <!-- texto  -->
+        <div class="col-12 col-md-6">
+          <h2>Comidas típicas</h2>
+          <p>
+    A culinária chilena reflete diretamente a diversidade geográfica do país, combinando influências indígenas, especialmente dos Mapuches, com tradições trazidas pelos colonizadores europeus. 
+    Ao longo do território, a alimentação varia conforme o ambiente: no litoral, o destaque fica para frutos do mar, enquanto nas regiões centrais predominam produtos agrícolas e, no sul, alimentos mais calóricos, adequados ao frio.
+    Entre os pratos típicos mais conhecidos está a <strong>Empanada chilena </strong>, geralmente recheada com carne, cebola, ovos e azeitonas.
+    Já o <strong>Curanto</strong>, mais comum no sul, é uma preparação coletiva que mistura carnes, frutos do mar e vegetais, cozidos .
+    Na alimentação cotidiana, o <strong>pão</strong> ocupa papel central (o Chile é os maiores consumidores de pão do mundo) acompanhado por ingredientes simples como abacate, queijos e carnes.
+    Além disso, bebidas como os <strong>vinhos</strong> chilenos possuem reconhecimento internacional, graças as condições climáticas favoráveis à viticultura.
+    Assim, a gastronomia chilena se caracteriza pela combinação entre recursos naturais abundantes e heranças culturais diversas, resultando em uma culinária rica, variada e profundamente conectada ao território.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 </main>
 
