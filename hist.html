@@ -7,26 +7,24 @@
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-
 <header>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <a href="" class="navbar-brand d-flex align-items-start gap-2">
                 <img src="img/bandeirachile.png" alt="Chile" width="50">
-                Tour pelo Chile, a muralha da américa do sul
-            </a>
+                História</a>
 
             <!-- Botão do mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links-navbar">
-                <span class="navbar-toggler-icon"></span>
+                <i class="bi bi-star-fill fs-1 text-white"></i>
             </button>
 
             <!-- LINKS para as paginas -->
@@ -51,38 +49,154 @@
 </header>
 
 <main>
-    <div id="conteudo-interno">
-        <h2 class="titulo">História</h2>
 
-        <!-- GRID grade -->
-        <div class="row g-4">
+  <!--parallax-->
+<div class="parallax-bg"></div>
+<!--titulo-->
+<section class="hero">
+  <div class="container">
+    <h1 class="display-3 fw-bold">ᑕᕼIᒪᕮ</h1> 
+  </div>
+</section>
 
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="foto">
-                    <img src="img/lhama-fofa.png" alt="História do Chile">
-                    <p class="legenda capslock">imagem aleatória</p>
-                    <p class="legenda">vou mudar depoi:3</p>
-                </div>
+<!-- poovos de origem -->
+<section>
+  <div class="container">
+    <div class="card custom-card p-4">
+      <div class="row align-items-center g-4">
+        <!-- Carrossel -->
+        <div class="col-12 col-md-6">
+          <div id="carouselInca" class="carousel slide mobile-carousel" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/mapainca.jpg" class="d-block w-100 rounded shadow" alt="Território inca"></div>
+              <div class="carousel-item">
+                <img src="img/Mapuche.jpg" class="d-block w-100 rounded shadow" alt="Construção Inca"></div>
+              <div class="carousel-item">
+                <img src="img/espanhol.jpg" class="d-block w-100 rounded shadow" alt="Fim dos Incas"></div>
             </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="foto">
-                    <img src="img/lhama-fofa.png" alt="História do Chile">
-                    <p class="legenda capslock">imagem aleatória</p>
-                    <p class="legenda">vou mudar depoi:3</p>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="foto">
-                    <img src="img/lhama-fofa.png" alt="História do Chile">
-                    <p class="legenda capslock">imagem aleatória</p>
-                    <p class="legenda">vou mudar depoi:3</p>
-                </div>
-            </div>
-
+            <!--botões-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselInca" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselInca" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span></button>
+          </div>
         </div>
+        <!--texto-->
+        <div class="col-12 col-md-6">
+          <h2>Povos de Origem</h2>
+            <p class="col-lg-8 mx-auto">
+    O povo Incas foi responsável pela formação de um dos maiores impérios das Américas, comparável, em escala e organização, às civilizações dos Maias e dos Astecas. 
+    Sua influência no atual território chileno concentrou-se principalmente na região norte, que integrava o Tahuantinsuyo sob a divisão chamada <strong>Collasuyu</strong>, 
+    a maior entre as quatro regiões administrativas do império.
+    Em contraste, no sul do Chile, destacam-se os Mapuches — cujo nome significa <strong>“gente da terra”</strong> — que, ao longo de séculos e ainda nos dias atuais, 
+    constituem o povo indígena mais numeroso do país. Sua resistência histórica e forte identidade cultural permitiram a preservação de diversas tradições.
+    Entre essas heranças culturais, destaca-se o artesanato, especialmente a produção de lã, que reflete conhecimentos ancestrais transmitidos entre gerações 
+    e permanece como um importante elemento da cultura chilena.
+    Com a chegada dos espanhóis no <strong>século XVI</strong>, essas culturas passaram por profundas transformações. 
+    A colonização introduziu novos elementos como a língua, a religião e estruturas sociais europeias que, combinados às tradições indígenas, 
+    contribuíram para a formação da identidade cultural chilena contemporânea.
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+
+<!--Colônia fragância perfume-->
+<section>
+  <div class="container">
+    <div class="card custom-card p-4">
+      <div class="row align-items-center">
+        <!-- Carrossel  -->
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <div id="carouseColonial" class="carousel slide mobile-carousel "data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/colonia.jpg" class="d-block w-100 rounded shadow" alt="Chile colonial">
+              </div>
+              <div class="carousel-item">
+                <img src="img/catedral.jpeg" class="d-block w-100 rounded shadow" alt="catedral chile">
+              </div>
+              <div class="carousel-item">
+                <img src="img/guerra.jpg" class="d-block w-100 rounded shadow" alt="">
+              </div>
+            </div>
+            <!-- BOTÕES -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouseColonial" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouseColonial" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span></button>
+          </div>
+        </div>
+        <!-- texto  -->
+        <div class="col-12 col-md-6">
+          <h2>Periodo Colonial</h2>
+          <p>
+    O período colonial do Chile teve início no século XVI, com a chegada dos espanhóis ao território que anteriormente 
+    havia sido parcialmente integrado ao Tahuantinsuyo, sobretudo em sua região norte. 
+    A incorporação do Império Inca ao Império Espanhol marcou o começo de profundas transformações políticas, sociais e culturais, que redefiniram a organização do território.
+    A colonização foi caracterizada pela fundação de cidades como <strong>Santiago</strong> e pela implementação de estruturas administrativas e econômicas voltadas à exploração de recursos. 
+    Nesse contexto, consolidou-se um sistema baseado no trabalho indígena e na introdução de práticas europeias. Ocorreu a difusão do idioma espanhol como lingua, e do cristianismo como religião.
+    O domínio dos espanhois não ocorreu de forma homogênea. No sul do território, os Mapuches formarão uma resistência à ocupação colonial espanhola, 
+    protagonizando conflitos conhecidos como a Guerra de<strong> Arauco</strong>. Essa resistência limitou a expansão espanhola e criou uma fronteira que perdurou por séculos.
+    Ao longo do período colonial, formou-se uma sociedade marcada pela miscigenação entre populações indígenas, europeias e, africanas em uma escala menor. 
+    Assim, o período colonial chileno não pode ser entendido apenas como um processo de dominação, mas como uma fase de intensa interação e transformação, 
+    tais efeitos permanecem visíveis na cultura, até hoje.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- + 1 Republiqueta -->
+<section>
+  <div class="container">
+    <div class="card custom-card p-4">
+      <div class="row align-items-center g-4">
+        <!-- Carrossel -->
+        <div class="col-12 col-md-6">
+          <div id="carouselRepulica" class="carousel slide mobile-carousel" data-bs-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/independencia.png" class="d-block w-100 rounded shadow" alt="Moais"></div>
+              <div class="carousel-item">
+                <img src="img/lideres.jpg" class="d-block w-100 rounded shadow" alt="Moais Rapa Nui"></div>
+              <div class="carousel-item">
+                <img src="img/pinochet.png" class="d-block w-100 rounded shadow" alt="Ilha de Páscoa"></div>
+            </div>
+            <!--botões-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselRepulica" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselRepulica" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <!--texto-->
+        <div class="col-12 col-md-6">
+          <h2>Republíca</h2>
+          <p>
+    O período republicano teve início no começo do século XIX, após a independência em relação ao Império Espanhol, consolidado em 18/09/1818. 
+    A partir desse momento, o país passou por um processo de organização política e institucional, marcado pela formação de um estado centralizado e a busca de estabilidade interna.
+    Durante esste século, o Chile estruturou suas bases econômicas e administrativas, com forte influência das elites agrárias e comerciais.
+    Nesse contexto, a expansão territorial e o controle de recursos naturais tornaram-se fatores estratégicos para o desenvolvimento nacional.
+    Um dos eventos mais significativos desse período foi a Guerra do Pacífico, travada entre o Chile, o Peru e a Bolívia. 
+    O conflito teve como motivação a disputa por territórios ricos em recursos minerais, especialmente nitratos, localizados na região do deserto do Atacama. 
+    O Chile saiu vitorioso, anexando áreas e ampliando seu território, o que teve impactos positivos e duradouros na economia e na geopolítica regional.
+    Ao longo do século XX, o país enfrentou períodos de instabilidade política, incluindo crises institucionais e mudanças de regime. 
+    Um dos momentos mais marcantes foi o Golpe de Estado no Chile em <strong>1973</strong>, que resultou na instauração de uma ditadura militar liderada por <strong>Augusto Pinochet</strong>. 
+    Esse período foi caracterizado por repressão política e violência, mas também por transformações econômicas significativas.
+    Com o fim da ditadura em 1990, o Chile iniciou um processo de redemocratização, consolidando instituições democráticas. 
+    Atualmente, o país é considerado uma das economias mais estáveis da América Latina.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <footer>

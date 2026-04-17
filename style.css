@@ -12,7 +12,7 @@ body {
 header{
     background: #0032A0 ;
 background: linear-gradient(180deg, rgba(0, 50, 160, 1) 50%, rgba(213, 43, 30, 1) 50%);
-max-height: 200px;
+max-height: 250px;
 }
 
 
@@ -20,13 +20,13 @@ max-height: 200px;
 
 .nav-link{
     color: #FFF !important;
-}
+    }
 
 @media(min-width: 780px){
 #emcimanav{
     margin-left: -100px;
-}
-}
+    }
+    }
 
 
 /*topo abaixo do nav*/
@@ -41,9 +41,9 @@ max-height: 200px;
     justify-content: space-between;
     gap: 20px;
     font-style: italic;
-}
+    }
 
-header h1 {
+    header h1 {
     text-transform: uppercase;
     font-style: italic;
     font-size: clamp(25px, 6vw, 32px);
@@ -51,30 +51,30 @@ header h1 {
     letter-spacing: 6px;
     line-height: 1.1;
     flex: 1 1 400px;
-}
+    }
 
-header p {
+    header p {
     color: #ffffff;
     font-size: clamp(14px, 2vw, 20px);
     flex: 1 1 400px;
-}
+    }
 
-header img {
+    header img {
     max-width: 120px;
     height: auto;
-}
+    }
 
 /* main FLEXivel*/
 main {
     flex: 1;
-}
+    }
 
-main h2 {
+    main h2 {
     text-align: center;
     padding: 30px 10px 40px;
     color: #e8e9f1;
     font-size: clamp(20px, 4vw, 32px);
-}
+    }
 
 
 /* grid grade */
@@ -87,7 +87,7 @@ main h2 {
     padding: 10px;
 }
 
-/*  pagina */
+/*  paginas */
 .paginas-nao-home {
     background: #222020;
     border-radius: 12px;
@@ -96,26 +96,26 @@ main h2 {
     transition: transform 0.2s ease;
 }
 
-.paginas-nao-home:hover {
+    .paginas-nao-home:hover {
     transform: translateY(-5px);
-}
+    }
 
-.paginas-nao-home a {
+    .paginas-nao-home a {
     display: block;
-}
+    }
 
-.paginas-nao-home img {
+    .paginas-nao-home img {
     width: 100%;
     height: 160px;
     object-fit: cover;
-}
+    }
 
-.paginas-nao-home p {
+    .paginas-nao-home p {
     text-align: center;
     margin: 15px 0;
     font-weight: bold;
     color: #222522;
-}
+    }
 
 /* footer */
 footer {
@@ -131,12 +131,12 @@ footer {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
-}
+    }
 
-#conteudo-interno h2 {
+    #conteudo-interno h2 {
     text-align: left;
     margin-bottom: 20px;
-}
+    }
 
 /* parte visual */
 .foto {
@@ -144,22 +144,22 @@ footer {
     border-radius: 15px;
     overflow: hidden;
     max-width: 300px;
-}
+    }
 
-.foto img {
+    .foto img {
     width: 100%;
     height: xpx; 
     object-fit: cover
-}
+    }
 
-.legenda {
+    .legenda {
     text-align: center;
     padding: 10px;
-}
+    }
 
-.capslock {
+    .capslock {
     font-weight: bold;
-}
+    }
 
 /*parte do paralax*/
 .parallax-bg {
@@ -193,7 +193,7 @@ footer {
         position: relative;
         z-index: 2;
     }
-
+    
 /* texto chile home */
 .hero .container {
         margin-top: -100px; 
