@@ -10,22 +10,21 @@ body {
 
 /* Barra de navegação e header */
 header{
-   background-image: url("img/bandeirachile.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; 
+    background: #0032A0 ;
+background: linear-gradient(180deg, rgba(0, 50, 160, 1) 50%, rgba(213, 43, 30, 1) 50%);
+max-height: 200px;
 }
 
 
-/*Nav colorido, antes não dava pra ver :3*/
+/*Nav colorido*/
 
 .nav-link{
-    color: #4050df !important;
+    color: #FFF !important;
 }
 
 @media(min-width: 780px){
 #emcimanav{
-    margin-left: -200px;
+    margin-left: -100px;
 }
 }
 
@@ -35,7 +34,7 @@ header{
 #topo {
     max-width: 2000px;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -47,7 +46,7 @@ header{
 header h1 {
     text-transform: uppercase;
     font-style: italic;
-    font-size: clamp(32px, 6vw, 50px);
+    font-size: clamp(25px, 6vw, 32px);
     color: #ffffff;
     letter-spacing: 6px;
     line-height: 1.1;
@@ -73,7 +72,7 @@ main {
 main h2 {
     text-align: center;
     padding: 30px 10px 40px;
-    color: #1e2eb9;
+    color: #e8e9f1;
     font-size: clamp(20px, 4vw, 32px);
 }
 
